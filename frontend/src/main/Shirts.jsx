@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import api from "../api/axios";
 import ProductCard from "../components/ProductCard";
 import "../styles/category.css";
-import { decrypt } from "../utils/responseEncryptDycrypt.jsx";
+import { decrypt } from "../utils/responseEncryptDycrypt.js";
 
 export default function Shirts() {
   const [products, setProducts] = useState([]);

@@ -14,7 +14,7 @@ import {
   fetchCart
 } from "../app/slices/cartSlice";
 
-import { decrypt } from "../utils/responseEncryptDycrypt.jsx";
+import { decrypt } from "../utils/responseEncryptDycrypt.js";
 
 const SLIDE_INTERVAL = 3000;
 
