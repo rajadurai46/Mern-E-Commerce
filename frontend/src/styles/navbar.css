@@ -1,0 +1,182 @@
+/* ===============================
+   BASE NAVBAR
+================================ */
+.nav {
+  height: 56px;
+  background: #2874f0; /* Flipkart Blue */
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* LOGO */
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 32px;
+}
+
+/* LINKS CONTAINER */
+.nav-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 22px;
+}
+
+/* LINKS */
+.nav-links a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   DROPDOWN BUTTONS
+================================ */
+.products-btn,
+.user-btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ===============================
+   DROPDOWN MENU (FLIPKART STYLE)
+================================ */
+.dropdown {
+  position: absolute;
+  top: 56px;
+  background: #fff;
+  min-width: 190px;
+  border-radius: 2px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  padding: 6px 0;
+  z-index: 1000;
+}
+
+/* Right aligned user dropdown */
+.user-dropdown {
+  right: 0;
+}
+
+/* DROPDOWN ITEMS */
+.dropdown a,
+.dropdown button {
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #212121;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.dropdown a:hover,
+.dropdown button:hover {
+  background: #f1f3f6;
+}
+
+/* ===============================
+   USER INFO HEADER (DROPDOWN)
+================================ */
+.user-info {
+  padding: 12px 16px;
+  background: #f1f3f6;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #212121;
+  margin: 0;
+}
+
+.user-email {
+  font-size: 12px;
+  color: #0be080;
+  margin-top: 2px;
+  word-break: break-word;
+}
+
+/* Divider */
+.dropdown-divider {
+  height: 1px;
+  background: #060000;
+  margin: 4px 0;
+}
+
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  color: #fafafa;
+  font-weight: 500;
+  border: 1px solid;
+  background-color:#d32f2f;
+}
+
+/* ===============================
+   RIGHT SIDE
+================================ */
+.nav-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* CART */
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* CART BADGE */
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: #ff6161;
+  color: #fff;
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* ===============================
+   DROPDOWN ANIMATION
+================================ */
+.dropdown {
+  animation: slideDown 0.18s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

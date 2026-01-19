@@ -1,0 +1,112 @@
+.checkout-page {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.checkout-left {
+  flex: 2;
+}
+
+.checkout-right {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  height: fit-content;
+}
+
+.address-card {
+  display: flex;
+  gap: 12px;
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.address-card button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #2874f0;
+}
+
+.add-address {
+  background: #2874f0;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.address-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.checkout-item {
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.checkout-item img {
+  width: 70px;
+}
+
+.continue-btn {
+  width: 100%;
+  background: #fb641b;
+  color: #fff;
+  padding: 12px;
+  border: none;
+}
+
+.warning-text {
+  color: red;
+  font-size: 13px;
+}
+
+.add-address-btn {
+  margin: 15px 0;
+  background: #2874f0;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.address-form {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.address-form input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.address-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-btn {
+  background: #ccc;
+}
+
+.default-badge {
+  background: #e6f0ff;
+  color: #2874f0;
+  padding: 2px 6px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+
+

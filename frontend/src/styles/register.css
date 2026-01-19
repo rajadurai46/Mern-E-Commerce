@@ -1,0 +1,177 @@
+/* ===============================
+   REGISTER PAGE CONTAINER
+================================ */
+.register-box {
+  width: 420px;
+  background: #ffffff;
+  margin: 60px auto;
+  padding: 28px 26px;
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  animation: slideUp 0.35s ease;
+}
+
+/* ===============================
+   TITLE
+================================ */
+.register-box h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #212121;
+}
+
+/* ===============================
+   INPUTS
+================================ */
+.register-box input {
+  width: 100%;
+  padding: 12px 4px;
+  margin-bottom: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.register-box input:focus {
+  border-color: #2874f0;
+  box-shadow: 0 0 0 2px rgba(40, 116, 240, 0.15);
+}
+
+/* ===============================
+   ADDRESS HEADER
+================================ */
+.register-box h4 {
+  margin: 14px 0 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #212121;
+}
+
+/* ===============================
+   PASSWORD STRENGTH
+================================ */
+.password-strength {
+  margin-bottom: 14px;
+}
+
+.strength-bar {
+  height: 6px;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.password-strength small {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ===============================
+   REGISTER BUTTON
+================================ */
+.register-box button {
+  width: 100%;
+  background: #2874f0;
+  color: #fff;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.register-box button:hover {
+  background: #1f5fd1;
+  transform: translateY(-1px);
+}
+
+.register-box button:disabled {
+  background: #aac4f6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ===============================
+   FOOTER LINK
+================================ */
+.register-footer {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+}
+
+.register-footer a {
+  color: #2874f0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   GOOGLE SIGNUP FIX
+================================ */
+.register-box iframe {
+  width: 100% !important;
+}
+
+/* ===============================
+   DIVIDER
+================================ */
+.register-divider {
+  display: flex;
+  align-items: center;
+  margin: 18px 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.register-divider::before,
+.register-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.register-divider::before {
+  margin-right: 10px;
+}
+
+.register-divider::after {
+  margin-left: 10px;
+}
+
+/* ===============================
+   ANIMATION
+================================ */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+@media (max-width: 480px) {
+  .register-box {
+    width: 92%;
+    margin: 40px auto;
+    padding: 22px;
+  }
+}

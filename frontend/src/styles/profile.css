@@ -1,0 +1,183 @@
+
+.profile-page {
+  max-width: 1100px;
+  margin: 30px auto;
+  display: flex;
+  gap: 24px;
+  padding: 0 16px;
+}
+
+
+
+.profile-avatar {
+  width: 260px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.avatar-circle {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #2874f0;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+}
+
+.upload-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+}
+
+
+.profile-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 6px;
+  padding: 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+
+.profile-card input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.profile-card input:disabled {
+  background: #f5f7fa;
+  color: #555;
+}
+
+
+.profile-card button {
+  background: #2874f0;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.profile-card button:hover {
+  background: #1f5fd1;
+}
+
+.btn-row {
+  display: flex;
+  gap: 12px;
+}
+
+.cancel-btn {
+  background: #e0e0e0 !important;
+  color: #333 !important;
+}
+
+.cancel-btn:hover {
+  background: #d5d5d5 !important;
+}
+
+
+.section-title {
+  margin: 24px 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+}
+
+
+.profile-actions {
+  display: flex;
+  gap: 16px;           
+  margin: 20px 0;         
+  flex-wrap: wrap;        
+}
+
+.profile-actions .action-btn {
+  background: #2874f0;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profile-actions .action-btn:hover {
+  background: #1f5fd1;
+}
+
+
+
+.address-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #fafafa;
+}
+
+.address-card p {
+  font-size: 13px;
+  margin: 4px 0;
+  color: #333;
+}
+
+.password-strength {
+  margin-bottom: 12px;
+}
+
+.strength-bar {
+  height: 6px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  transition: width 0.3s ease;
+}
+
+.password-strength small {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.profile-card hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.profile-card .delete-btn {
+  background: #d32f2f;
+}
+
+.profile-card .delete-btn:hover {
+  background: #b71c1c;
+}
+
+
+@media (max-width: 900px) {
+  .profile-page {
+    flex-direction: column;
+  }
+
+  .profile-avatar {
+    width: 100%;
+  }
+}

@@ -1,0 +1,179 @@
+/* ===============================
+   AUTH PAGE WRAPPER
+================================ */
+.auth-box {
+  width: 380px;
+  background: #ffffff;
+  margin: 60px auto;
+  padding: 28px 26px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  animation: fadeIn 0.4s ease;
+}
+
+/* TITLE */
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #212121;
+}
+
+/* ===============================
+   INPUTS
+================================ */
+.auth-box input {
+  width: 100%;
+  padding: 12px 4px;
+  margin-bottom: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.auth-box input:focus {
+  border-color: #2874f0;
+  box-shadow: 0 0 0 2px rgba(40, 116, 240, 0.15);
+}
+
+/* ===============================
+   PASSWORD STRENGTH
+================================ */
+.password-strength {
+  margin-bottom: 14px;
+}
+
+.strength-bar {
+  height: 6px;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.password-strength small {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.auth-box button {
+  width: 100%;
+  background: #2874f0;
+  color: #fff;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.auth-box button:hover {
+  background: #1f5fd1;
+  transform: translateY(-1px);
+}
+
+.auth-box button:disabled {
+  background: #aac4f6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ===============================
+   DIVIDER (OR)
+================================ */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 18px 0;
+  font-size: 13px;
+  color: #777;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.divider::before {
+  margin-right: 10px;
+}
+
+.divider::after {
+  margin-left: 10px;
+}
+
+/* ===============================
+   LINKS
+================================ */
+.auth-footer {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+}
+
+.register-link {
+  color: #2874f0;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.forgot-link {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #e53935;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   GOOGLE BUTTON FIX
+================================ */
+.auth-box iframe {
+  width: 100% !important;
+}
+
+/* ===============================
+   ANIMATION
+================================ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================ */
+@media (max-width: 480px) {
+  .auth-box {
+    width: 92%;
+    margin: 40px auto;
+    padding: 22px;
+  }
+}
+

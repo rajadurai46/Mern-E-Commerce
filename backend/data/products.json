@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Men Slim Fit Cotton Shirt",
+    "category": "shirt",
+    "price": 18,
+    "quantity": 30,
+    "description": "Premium cotton slim fit shirt",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt1.jpg"
+  },
+  {
+    "name": "Casual Checked Shirt",
+    "category": "shirt",
+    "price": 22,
+    "quantity": 30,
+    "description": "Stylish checked casual wear",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt2.jpg"
+  },
+  {
+    "name": "Men Slim Fit Cotton Shirt",
+    "category": "shirt",
+    "price": 18,
+    "quantity": 30,
+    "description": "Premium cotton slim fit shirt",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt3.jpg"
+  },
+  {
+    "name": "Casual Checked Shirt",
+    "category": "shirt",
+    "price": 22,
+    "quantity": 30,
+    "description": "Stylish checked casual wear",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt4.jpg"
+  },
+  {
+    "name": "Men Slim Fit Cotton Shirt",
+    "category": "shirt",
+    "price": 18,
+    "quantity": 30,
+    "description": "Premium cotton slim fit shirt",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt5.jpg"
+  },
+  {
+    "name": "Casual Checked Shirt",
+    "category": "shirt",
+    "price": 22,
+    "quantity": 30,
+    "description": "Stylish checked casual wear",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt6.jpg"
+  },
+  {
+    "name": "Men Slim Fit Cotton Shirt",
+    "category": "shirt",
+    "price": 18,
+    "quantity": 30,
+    "description": "Premium cotton slim fit shirt",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt7.jpg"
+  },
+  {
+    "name": "Casual Checked Shirt",
+    "category": "shirt",
+    "price": 22,
+    "quantity": 30,
+    "description": "Stylish checked casual wear",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt8.jpg"
+  },
+  {
+    "name": "Men Slim Fit Cotton Shirt",
+    "category": "shirt",
+    "price": 18,
+    "quantity": 30,
+    "description": "Premium cotton slim fit shirt",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt9.jpg"
+  },
+  {
+    "name": "Casual Checked Shirt",
+    "category": "shirt",
+    "price": 22,
+    "quantity": 30,
+    "description": "Stylish checked casual wear",
+    "image": "https://res.cloudinary.com/demo/image/upload/shirt10.jpg"
+  },
+  {
+  "name": "Running Sports Shoes",
+  "category": "shoe",
+  "price": 45,
+  "quantity": 30,
+  "description": "Lightweight running shoes",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe1.jpg"
+},
+{
+  "name": "Casual Sneakers",
+  "category": "shoe",
+  "price": 35,
+  "quantity": 30,
+  "description": "Comfortable casual sneakers",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe2.jpg"
+},
+{
+  "name": "Running Sports Shoes",
+  "category": "shoe",
+  "price": 45,
+  "quantity": 30,
+  "description": "Lightweight running shoes",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe3.jpg"
+},
+{
+  "name": "Casual Sneakers",
+  "category": "shoe",
+  "price": 35,
+  "quantity": 30,
+  "description": "Comfortable casual sneakers",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe4.jpg"
+},
+{
+  "name": "Running Sports Shoes",
+  "category": "shoe",
+  "price": 45,
+  "quantity": 30,
+  "description": "Lightweight running shoes",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe5.jpg"
+},
+{
+  "name": "Casual Sneakers",
+  "category": "shoe",
+  "price": 35,
+  "quantity": 30,
+  "description": "Comfortable casual sneakers",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe6.jpg"
+},
+{
+  "name": "Running Sports Shoes",
+  "category": "shoe",
+  "price": 45,
+  "quantity": 30,
+  "description": "Lightweight running shoes",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe7.jpg"
+},
+{
+  "name": "Casual Sneakers",
+  "category": "shoe",
+  "price": 35,
+  "quantity": 30,
+  "description": "Comfortable casual sneakers",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe8.jpg"
+},
+{
+  "name": "Running Sports Shoes",
+  "category": "shoe",
+  "price": 45,
+  "quantity": 30,
+  "description": "Lightweight running shoes",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe9.jpg"
+},
+{
+  "name": "Casual Sneakers",
+  "category": "shoe",
+  "price": 35,
+  "quantity": 30,
+  "description": "Comfortable casual sneakers",
+  "image": "https://res.cloudinary.com/demo/image/upload/shoe10.jpg"
+},
+
+{
+  "name": "Analog Leather Watch",
+  "category": "watch",
+  "price": 60,
+  "quantity": 30,
+  "description": "Classic leather strap watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch1.jpg"
+},
+{
+  "name": "Digital Smart Watch",
+  "category": "watch",
+  "price": 50,
+  "quantity": 30,
+  "description": "Stylish digital smart watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch2.jpg"
+},
+{
+  "name": "Analog Leather Watch",
+  "category": "watch",
+  "price": 60,
+  "quantity": 30,
+  "description": "Classic leather strap watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch3.jpg"
+},
+{
+  "name": "Digital Smart Watch",
+  "category": "watch",
+  "price": 50,
+  "quantity": 30,
+  "description": "Stylish digital smart watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch4.jpg"
+},
+{
+  "name": "Analog Leather Watch",
+  "category": "watch",
+  "price": 60,
+  "quantity": 30,
+  "description": "Classic leather strap watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch5.jpg"
+},
+{
+  "name": "Digital Smart Watch",
+  "category": "watch",
+  "price": 50,
+  "quantity": 30,
+  "description": "Stylish digital smart watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch6.jpg"
+},
+{
+  "name": "Analog Leather Watch",
+  "category": "watch",
+  "price": 60,
+  "quantity": 30,
+  "description": "Classic leather strap watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch7.jpg"
+},
+{
+  "name": "Digital Smart Watch",
+  "category": "watch",
+  "price": 50,
+  "quantity": 30,
+  "description": "Stylish digital smart watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch8.jpg"
+},
+{
+  "name": "Analog Leather Watch",
+  "category": "watch",
+  "price": 60,
+  "quantity": 30,
+  "description": "Classic leather strap watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch9.jpg"
+},
+{
+  "name": "Digital Smart Watch",
+  "category": "watch",
+  "price": 50,
+  "quantity": 30,
+  "description": "Stylish digital smart watch",
+  "image": "https://res.cloudinary.com/demo/image/upload/watch10.jpg"
+},
+
+{
+  "name": "Stainless Steel Water Bottle",
+  "category": "bottle",
+  "price": 12,
+  "quantity": 30,
+  "description": "Leak proof steel bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle1.jpg"
+},
+{
+  "name": "Glass Water Bottle",
+  "category": "bottle",
+  "price": 15,
+  "quantity": 30,
+  "description": "Stylish glass bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle2.jpg"
+},
+{
+  "name": "Stainless Steel Water Bottle",
+  "category": "bottle",
+  "price": 12,
+  "quantity": 30,
+  "description": "Leak proof steel bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle3.jpg"
+},
+{
+  "name": "Glass Water Bottle",
+  "category": "bottle",
+  "price": 15,
+  "quantity": 30,
+  "description": "Stylish glass bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle4.jpg"
+},
+{
+  "name": "Stainless Steel Water Bottle",
+  "category": "bottle",
+  "price": 12,
+  "quantity": 30,
+  "description": "Leak proof steel bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle5.jpg"
+},
+{
+  "name": "Glass Water Bottle",
+  "category": "bottle",
+  "price": 15,
+  "quantity": 30,
+  "description": "Stylish glass bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle6.jpg"
+},
+{
+  "name": "Stainless Steel Water Bottle",
+  "category": "bottle",
+  "price": 12,
+  "quantity": 30,
+  "description": "Leak proof steel bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle7.jpg"
+},
+{
+  "name": "Glass Water Bottle",
+  "category": "bottle",
+  "price": 15,
+  "quantity": 30,
+  "description": "Stylish glass bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle8.jpg"
+},
+{
+  "name": "Stainless Steel Water Bottle",
+  "category": "bottle",
+  "price": 12,
+  "quantity": 30,
+  "description": "Leak proof steel bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle9.jpg"
+},
+{
+  "name": "Glass Water Bottle",
+  "category": "bottle",
+  "price": 15,
+  "quantity": 30,
+  "description": "Stylish glass bottle",
+  "image": "https://res.cloudinary.com/demo/image/upload/bottle10.jpg"
+}
+
+
+
+]

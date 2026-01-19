@@ -1,0 +1,195 @@
+/* ===============================
+   HOME SECTIONS
+================================ */
+.home-section {
+  background: #ffffff;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.home-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+/* PRODUCT GRID */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 16px;
+}
+
+/* ===============================
+   BANNER SLIDER
+================================ */
+.banner-slider {
+  width: 100%;
+  background: #f1f3f6;
+  overflow: hidden;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+
+/* TRACK */
+.banner-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+
+/* SLIDE */
+.banner-slide {
+  min-width: 100%;
+  height: 260px;
+  display: flex;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+
+/* IMAGE – FILL & CROP NATURALLY */
+.banner-slide img {
+  width: 50%;
+  height: 100%;
+  object-fit:fill;      /* ✅ sharp, no stretch */
+  object-position: center;
+}
+
+
+/* ===============================
+   BOXED OVERLAY (FLIPKART STYLE)
+================================ */
+.banner-box {
+  width: 50%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  background: #000000;
+  color: #ffffff;
+}
+
+
+/* TITLE */
+.banner-box h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.banner-box p {
+  font-size: 14px;
+  color: #0ce041;
+}
+
+
+/* ACTION ROW */
+.banner-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.banner-arrow.left {
+  left: 10px;
+}
+
+.banner-arrow.right {
+  right: 10px;
+}
+
+
+/* SHOP BUTTON */
+.shop-btn {
+  width: fit-content;
+  background: #ff9f00;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s;
+}
+
+.shop-btn:hover {
+  background: #fb641b;
+  color: #fff;
+}
+
+
+/* CART ICON */
+.shop-icon {
+  font-size: 16px;
+}
+
+/* ===============================
+   DOT PAGINATION
+================================ */
+.banner-dots {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.banner-dots .dot {
+  width: 8px;
+  height: 8px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.banner-dots .dot.active {
+  background: #2874f0;
+}
+
+
+@media (max-width: 768px) {
+  .banner-slide {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .banner-slide img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .banner-box {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .banner-box h2 {
+    font-size: 16px;
+  }
+}
+
+
+
+

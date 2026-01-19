@@ -1,0 +1,51 @@
+/* ===== CATEGORY GRID ===== */
+.grid {
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  background: #f1f3f6;
+  min-height: 100vh;
+}
+
+/* ===== PRODUCT CARD ===== */
+/* This targets ProductCard root safely */
+.grid > div {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== IMAGE BOX (FLIPKART STYLE) ===== */
+.grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  background: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* ===== PRODUCT NAME ===== */
+.grid h3,
+.grid h4,
+.grid p {
+  margin: 4px 0;
+}
+
+/* ===== PRICE ===== */
+.grid .price,
+.grid p:last-child {
+  font-weight: bold;
+  color: #388e3c;
+  font-size: 15px;
+}

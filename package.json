@@ -1,0 +1,13 @@
+{
+  "name": "mern-e-commerce",
+  "private": true,
+  "scripts": {
+    "client": "cd frontend && npm run dev",
+    "server": "cd backend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "crypto-js": "^4.2.0"
+  }
+}
