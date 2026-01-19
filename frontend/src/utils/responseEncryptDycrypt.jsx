@@ -1,4 +1,4 @@
-import CryptoJS from "crypto-js";
+import { CryptoJS } from "crypto-js";
 
 
 const SECRET_KEY = import.meta.env.VITE_ENCRYPT_DECRYPT_SECRET_KEY;
