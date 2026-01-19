@@ -28,10 +28,8 @@ connectDB();
 
 const app = express();
 
-app.use(cors({
-  origin: ["http://localhost:5173", "http://mern-e-commerce-pearl.vercel.app/"],
-  credentials: true
-}));
+app.use(cors());
+
 
 app.use((req, res, next) => {
   res.setHeader("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
