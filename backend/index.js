@@ -9,6 +9,7 @@ import cartRoutes from "./routes/cart.routes.js";
 import orderRoutes from "./routes/order.routes.js";
 import orderHistoryRoutes from "./routes/orderHistory.routes.js";
 import userRoutes from "./routes/user.routes.js";
+import passport from "passport";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -49,7 +50,7 @@ app.use(
 );
 
 /* 🔥 IMPORTANT: handle preflight with SAME config */
-app.options("*", (req, res) => {
+app.options(/.*/, (req, res) => {
   res.sendStatus(200);
 });
 
