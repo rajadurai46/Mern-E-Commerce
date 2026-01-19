@@ -29,7 +29,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173", // ✅ allow frontend
+  origin: ["http://localhost:5173", "http://mern-e-commerce-pearl.vercel.app/"],
   credentials: true
 }));
 
