@@ -11,8 +11,7 @@ import orderHistoryRoutes from "./routes/orderHistory.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import path from "path";
 import { fileURLToPath } from "url";
-import passport from "passport";
-import "./config/passport.js";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -28,16 +27,31 @@ connectDB();
 
 const app = express();
 
+const allowedOrigins = [
+  "https://mern-e-commerce-pearl.vercel.app",
+  "http://localhost:5173"
+];
+
 app.use(
   cors({
-    origin: "https://mern-e-commerce-pearl.vercel.app",
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true); // Postman / server-to-server
+      if (allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("CORS not allowed"));
+      }
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
   })
 );
 
-app.options("*", cors());
+/* 🔥 IMPORTANT: handle preflight with SAME config */
+app.options("*", (req, res) => {
+  res.sendStatus(200);
+});
 
 app.use((req, res, next) => {
   res.setHeader("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
