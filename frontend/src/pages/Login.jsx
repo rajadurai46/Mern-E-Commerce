@@ -47,9 +47,8 @@ const Login = () => {
 
    const handleGoogleSuccess = async (credentialResponse) => {
     try {
-      const res = await api.post("/auth/google-login", {
-        token: credentialResponse.credential
-      });
+      const res = await api.post("/auth/google-login", 
+      {token: credentialResponse.credential}, {withCredentials: false});
 
       localStorage.setItem("token", res.data.token);
 
