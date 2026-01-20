@@ -55,7 +55,7 @@ const Register = () => {
       const encryptedData = encrypt(form);
 
       const res = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://mern-e-commerce-pkk4.onrender.com/api/auth/register",
         { data: encryptedData }
       );
 
