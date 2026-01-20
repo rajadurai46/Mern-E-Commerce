@@ -133,12 +133,14 @@ export const googleLogin = async (req, res) => {
 export const forgotPassword = async (req, res) => {
   try {
     const { email } = req.body;
-    if (!email) 
-    sendResponse(res, false, 400, "Email required", [], {}, {});
+    if (!email){
+      return res.status(400).json({ message: "Email is required" });
+    }
 
     const user = await User.findOne({ email });
-    if (!user) 
-    sendResponse(res, false, 400, "Email not registered", [], {}, {});
+    if (!user){
+      return res.status(400).json({ message: "Email not registered" });
+    }
 
     const token = crypto.randomBytes(32).toString("hex");
 
