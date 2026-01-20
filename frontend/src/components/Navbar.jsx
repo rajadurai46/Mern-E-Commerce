@@ -53,7 +53,8 @@ const Navbar = () => {
 
   /* ================= LOGOUT ================= */
  const logoutHandler = () => {
-  dispatch(logout());     
+  dispatch(logout()); 
+  localStorage.clear();    
   navigate("/login");     
 };
 
