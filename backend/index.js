@@ -49,10 +49,7 @@ app.use(
   })
 );
 
-/* 🔥 IMPORTANT: handle preflight with SAME config */
-app.options(/.*/, (req, res) => {
-  res.sendStatus(200);
-});
+
 
 app.use((req, res, next) => {
   res.setHeader("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
